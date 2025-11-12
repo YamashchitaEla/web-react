@@ -2,10 +2,10 @@
   :root{
     --bg:#082617;
     --surface:#0d2313;
-    --fg:#9ac0b1;
+    --fg:#449374;
     --fg-muted:#99d0af;
     --border:#233b2e;
-    --brand:#43cf99;
+    --brand:#2abe85;
     --brand-600:#3d927a;
     --brand-100:#327f5a;
     --brand-meta: color-mix(in srgb, var(--surface) 92%, #fff 8%);
@@ -15,4 +15,16 @@
   .news-card__meta{
     background: color-mix(in srgb, var(--surface) 92%, #fff 8%);
   }
+}
+
+.app-theme-root[data-theme="dark"]{
+  --bg:#07402b;
+  --surface:#063018;
+  --fg:#70c68e;
+  --fg-muted:#96baa4;
+  --border:#0e452d;
+  --brand:#2abe85;
+  --brand-600:#3d927a;
+  --brand-100:#327f5a;
+  --brand-meta: color-mix(in srgb, var(--surface) 92%, #fff 8%);
 }
